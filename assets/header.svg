@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="t d">
+  <title id="t">Virenay Chauhan — B.Tech CSE, DIT University, Dehradun</title>
+  <desc id="d">Dark navy banner with soft indigo light arcs and a slow-moving glow.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070B14"/>
+      <stop offset="0.55" stop-color="#0C1424"/>
+      <stop offset="1" stop-color="#111C31"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.18" cy="0.1" r="0.75">
+      <stop offset="0" stop-color="#8FA0FF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#8FA0FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.95" cy="0.95" r="0.7">
+      <stop offset="0" stop-color="#4FD1C5" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#4FD1C5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8FA0FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#8FA0FF" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#4FD1C5" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card">
+      <rect x="1" y="1" width="1278" height="318" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect x="1" y="1" width="1278" height="318" rx="24" fill="url(#bg)"/>
+
+    <ellipse cx="230" cy="30" rx="520" ry="300" fill="url(#glowA)">
+      <animate attributeName="opacity" values="0.75;1;0.75" dur="9s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="1220" cy="320" rx="460" ry="260" fill="url(#glowB)">
+      <animate attributeName="opacity" values="0.6;0.95;0.6" dur="11s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <circle cx="70" cy="0" r="330" fill="none" stroke="#8FA0FF" stroke-opacity="0.14" stroke-width="1.5"/>
+    <circle cx="1215" cy="300" r="300" fill="none" stroke="#8FA0FF" stroke-opacity="0.16" stroke-width="1.5"/>
+    <circle cx="1215" cy="300" r="360" fill="none" stroke="#4FD1C5" stroke-opacity="0.08" stroke-width="1.5"/>
+
+    <rect x="1" y="1" width="1278" height="318" rx="24" fill="none" stroke="#233049" stroke-width="1"/>
+
+    <text x="96" y="150" fill="#E2E8F5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="60" font-weight="700" letter-spacing="-0.5">
+      Virenay Chauhan
+      <animate attributeName="opacity" values="0;1" dur="1.2s" fill="freeze"/>
+    </text>
+
+    <text x="98" y="198" fill="#8FA0FF" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="500" letter-spacing="0.4">
+      B.Tech CSE · DIT University, Dehradun
+      <animate attributeName="opacity" values="0;0.95" dur="1.2s" begin="0.4s" fill="freeze"/>
+    </text>
+
+    <rect x="98" y="228" width="420" height="2" rx="1" fill="url(#rule)">
+      <animate attributeName="width" values="0;420" dur="1.6s" begin="0.6s" fill="freeze"/>
+    </rect>
+
+    <text x="98" y="266" fill="#7C8AA5" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" letter-spacing="0.6">
+      python · flask · c · sqlite
+      <animate attributeName="opacity" values="0;0.9" dur="1.4s" begin="0.9s" fill="freeze"/>
+    </text>
+  </g>
+</svg>
